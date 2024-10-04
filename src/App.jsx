@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Typography from './Components/Typography'
 import Spacing from './Components/Spacing'
+import Flexbox from './Components/Flexbox'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       {/* <Typography/> */}
-      <Spacing/>
+      {/* <Spacing/> */}
+      <Flexbox/>
     </>
   )
 }
